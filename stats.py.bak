@@ -1,0 +1,10 @@
+def get_num_words(f):
+	file_contents=f.read()
+	total_words = 0
+	total_words = file_contents.split()
+	return total_words
+
+def count_chars(f):
+	file_contents=f.read()
+	all_lowercase=file_contents.lower()
+	return all_lowercase
